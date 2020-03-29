@@ -138,8 +138,8 @@ def displayHouse(c1, c2):
     time.sleep(0.5)
     colorTwo_chase(c1, c2, 5, 0.1)
     #comment out one of the following lines.  You can use either chase or alternating pixels
-    #colorTwo_alternating(c1, c2, 25, 0.5)
-    colorTwo_chase(c1, c1, 1, 0.1)
+    colorTwo_alternating(c1, c2, 25, 0.5)
+    #colorTwo_chase(c1, c1, 1, 0.1)
 
     time.sleep(3)
     pixels.fill(pixelOff)
